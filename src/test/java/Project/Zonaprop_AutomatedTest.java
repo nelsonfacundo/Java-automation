@@ -23,7 +23,7 @@ public class Zonaprop_AutomatedTest {
 	
 	
 	By AlquilarBtnLocator = By.cssSelector("li button[data-tracking='Alquilar']");
-	By MenuLocator = By.cssSelector("div input[placeholder='Busc· por ubicaciÛn o palabra clave']");
+	By MenuLocator = By.cssSelector("div input[placeholder='Busc√° por ubicaci√≥n o palabra clave']");
 	By ButtonLocator = By.cssSelector("div button[type='submit']");
 						
 	
@@ -42,7 +42,7 @@ public class Zonaprop_AutomatedTest {
 					driver.manage().window().maximize();
 					driver.get("http://www.zonaprop.com");
 					//Caso 2  se intenta setear cookies faltantes 
-					//Cookie ck = new Cookie("sessionId", "24084cb5-fd35-4f5d-9dd2-45c302dd8dc9");
+					//Cookie ck = new Cookie("String", "Value");
 					//driver.manage().addCookie(ck);
 					driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 					
