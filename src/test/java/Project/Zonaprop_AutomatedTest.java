@@ -37,7 +37,7 @@ public class Zonaprop_AutomatedTest {
 					//options.addArguments("user-data-dir="+userProfile);
 					//options.addArguments("--start-maximized");
 					//WebDriver driver = new ChromeDriver(options);
-					//driver.get("http://www.google.com");
+					//driver.get("http://www.zonaprop.com.ar");
 					driver = new ChromeDriver();		
 					driver.manage().window().maximize();
 					driver.get("http://www.zonaprop.com");
